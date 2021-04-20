@@ -1,0 +1,29 @@
+.list-holder{
+    position: fixed;
+    font-size: 15px !important;
+}
+.list-title{
+    text-align: left !important;
+}
+.user-list-text{
+    
+    padding: 0 !important;
+    
+}
+.user-card{
+    font-family: 'Nunito', sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    border: none;
+    margin: 5% 1%;
+}
+.user-card-title{
+    margin-bottom: 0 !important;
+}
+.user-card-subs{
+    margin: 0 !important;
+    font-size: 12px;
+}
+.user-card-follow-link{
+    color:#0095f6
+}

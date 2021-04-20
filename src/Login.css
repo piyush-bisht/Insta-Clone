@@ -1,0 +1,80 @@
+.view{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.login-alert{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 5% 40%;
+    width: max-content;
+
+}
+
+
+
+
+.login-card{
+    width: 400px !important;
+    
+    border: none;
+    border-radius: none;
+    margin: 0 auto;
+    margin-top: 10%; 
+    
+}
+.login-c-c{
+    text-align: center;
+}
+.login-c-h{
+    font-family: 'Billabong',sans-serif;
+    font-size: 40px;
+    margin: auto;
+}
+.login-c-b{
+
+    margin:2%;
+}
+.login-c-t{
+    margin: 2%;
+}
+.login-c-a{
+    color: black;
+    font-weight: 700;
+}
+.login-c-f{
+    margin-top: 10%;
+    background-color: white;
+}
+
+.landing-j-1{
+    margin-top: 20%;
+    background-image: url("https://images.pexels.com/photos/630863/pexels-photo-630863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.landing-j-1-col-1{
+    text-align: center;
+}
+.landing-j-1-t{
+    color: rgb(2, 2, 2);
+    
+
+    
+}
+.landing-j-1-i{
+    margin-left:10%;
+    height: 100% !important;
+    width: 70% !important;
+    transform: rotateZ(30);
+}

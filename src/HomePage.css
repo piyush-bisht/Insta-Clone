@@ -1,0 +1,108 @@
+.home-container{
+
+ text-align: center;   
+    margin: auto;
+    margin-top: 5%;
+
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.homepage-card{
+    text-align: center;
+    margin:2% auto;
+    width: 70% !important;
+    height: 80% !important;
+    border: solid rgb(158, 158, 158) 0.1px;
+}
+.feed-img{
+    height: auto !important;
+
+}
+.card-header{
+    text-align: left;
+    background-color: white;
+    border: none;
+    margin-bottom: 0;
+}
+.feed-postSender-img{
+    max-width: 30px;
+    max-height: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+}
+.feed-postSender-name{
+    margin-left: 2%;
+    font-weight: 600;
+}
+.card-body{
+    text-align: left;
+    color:black;
+    font-size: 15px;
+    padding-top: 0;
+    padding-bottom: 1% !important;
+}
+.text-c{
+    margin-bottom: 0%;
+}
+.fa-heart,.fa-comment{
+    font-size: 25px;
+    color: black;
+}
+.fas.fa-heart
+{
+    color:red;
+}
+.fa-heart:hover{
+    color: red;
+}
+.fa-comment{
+    margin-left: 2%;
+}
+
+.comments-link{
+    text-align: left !important;
+    margin-left: 3.5% !important;
+    font-size: 12px;
+}
+.comment-ip{
+    margin-top: 2%;
+    margin-bottom: 1% !important;
+    border-top: 1px solid rgb(231, 230, 230);
+}
+.comment-ip-text{
+    display: inline;
+    text-decoration:none;
+    border: none!important;
+    outline: none !important;
+    padding-left: 4% !important;
+    border-bottom: 1px solid black;
+    box-shadow: none !important; 
+    margin-top: 2%;
+}
+.comment-text{
+    margin:0;
+    text-align: left;
+    font-size: 15px;
+}
+
+*:focus{
+    outline: none !important;
+}
+
+#postcommentbutton{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: white;
+    color:#0095f6;
+    display: inline;
+    font-size: 90%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+#postcommentbutton:disabled{
+    color: gray;
+}
+

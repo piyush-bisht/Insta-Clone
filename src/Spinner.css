@@ -1,0 +1,18 @@
+.fa-circle-notch{
+    animation: spin 1s linear infinite; 
+    font-size: 50px !important;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+}
+
+@keyframes spin
+{
+    0%{
+        transform: rotate(0deg);
+    }
+   
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,48 @@
+.navbar-c{
+    text-align: center;
+    margin: 0  auto;
+    width: 100%;
+    border-bottom: solid rgb(202, 202, 202) 0.5px;
+}
+.navbar{
+    background-color: white;
+    margin: 0 20%;
+    padding:0 0;
+
+
+}
+.navbar-brand{
+    font-family: 'Billabong',sans-serif;
+    font-size: 30px;
+}
+.nav-profile-img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+}
+.fa-home,.fa-user{
+    font-size: 30px;
+    color: black;
+} 
+
+ul{
+    margin-left: auto;
+}
+.logout-button{
+    padding: 5%;
+}
+.plus-button{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 200px !important;
+
+}
+.plus-button:active{
+    direction: none;
+}
+.plus-button:hover{
+    background-color: gray;
+    color: none;
+}
+

@@ -1,25 +1,68 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import HomePage from "./HomePage";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Profile from './Profile';
+import Login from "./Login";
+import Register from "./Register";
+import PostAdder from "./PostAdder";
+import { Component } from "react";
+import ReactSession from "react-client-session/dist/ReactSession";
+
+
+
+class App extends Component {
+  
+  componentDidMount(){
+  
+      ReactSession.setStoreType("localStorage");
+      ReactSession.set("id","");
+      ReactSession.set("name","");
+      ReactSession.set("username","");
+      ReactSession.set("password","");
+  }
+  render(){
+    return(
+      <RoutesManager/>
+    )
+  }
+
+}
+
+class RoutesManager extends Component{
+
+  render(){
+
+  
+    return (
+      
+      
+      <Switch>
+        <Route exact path="/" component={HomePage}>
+          
+        </Route>
+        <Route   path="/profile/:id" render={(props)=><Profile {...props} key={Math.random()}/>} >
+          
+        </Route>
+        <Route  path="/login" component={Login}>
+          
+        </Route>
+        <Route  path="/register" component={Register}>
+          
+        </Route>
+        <Route path="/addPost" component={PostAdder}>
+
+        </Route>
+      </Switch>
+      
+      
+    );
+    }
+  
 }
 
 export default App;
